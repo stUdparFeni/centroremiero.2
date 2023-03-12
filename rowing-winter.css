@@ -1,0 +1,141 @@
+* {
+    top:0;
+    margin: 0;
+    padding: 0;}
+    body{background-image: url(https://img2.juzaphoto.com/002/shared_files/uploads/2407543.jpg);
+      background-size: 100%;
+      background-attachment: fixed;}
+  
+  
+  
+  
+  .menu {
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  padding: 10px;
+  }
+  
+  
+  
+  
+  .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  }
+  
+  
+  
+  
+  .menu li {
+  margin: 0 10px;
+  float: left;
+  }
+  
+  
+  
+  
+  .menu a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  float: left;
+  }
+  
+  
+  
+  
+  .menu a:hover {
+  background-color:rgba(210, 212, 220, 0.562);
+  /* Cambia il colore di sfondo al passaggio del mouse */
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 768px) {
+  /* Media query per la visualizzazione mobile */
+  .menu {
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  .menu li {
+    margin: 10px 0;
+    text-align: center;
+  
+  
+  
+  
+  }
+  }
+  
+  
+  
+  
+  .title {
+  font-size: 35px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-shadow: 10px 10px 15px #333 ;
+  }
+
+.hero-image {
+	position: relative;
+	height: 100vh;
+	background-color: rgba(210, 212, 220, 0.562);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero-image img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 80%;
+	max-height: 80%;
+}
+
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.hero-text h1 {
+	font-size: 48px;
+	margin: 0;
+}
+
+.hero-text p {
+	font-size: 24px;
+	margin: 20px 0;
+}
+
+.hero-text a {
+	display: inline-block;
+	background-color: #FFFFFF;
+	color: #333333;
+	padding: 10px 20px;
+	border-radius: 25px;
+	text-decoration: none;
+	font-size: 18px;
+	transition: background-color 0.3s ease;
+}
+
+.hero-text a:hover {
+	background-color: #CCCCCC;
+}
+

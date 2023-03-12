@@ -1,0 +1,288 @@
+* {
+    top:0;
+    margin: 0;
+    padding: 0;}
+    body{background-image: url(https://img2.juzaphoto.com/002/shared_files/uploads/2407543.jpg);
+      background-size: 100%;
+      background-attachment: fixed;}
+  
+  
+  
+  
+  .menu {
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  padding: 10px;
+  }
+  
+  
+  
+  
+  .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  }
+  
+  
+  
+  
+  .menu li {
+  margin: 0 10px;
+  float: left;
+  }
+  
+  
+  
+  
+  .menu a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  float: left;
+  }
+  
+  
+  
+  
+  .menu a:hover {
+  background-color:rgba(210, 212, 220, 0.562);
+  /* Cambia il colore di sfondo al passaggio del mouse */
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 768px) {
+  /* Media query per la visualizzazione mobile */
+  .menu {
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  .menu li {
+    margin: 10px 0;
+    text-align: center;
+  
+  
+  
+  
+  }
+  }
+  
+  
+  
+  
+  .title {
+  font-size: 35px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-shadow: 10px 10px 15px #333 ;
+  }
+  
+  
+  
+  
+  .paragrafo-con-immagine {
+    text-align: center; /* centra il testo all'interno del contenitore */
+    margin-left: 600px;
+    background-color:antiquewhite;
+    margin-right: 50px;
+    height:320px;
+    opacity: 1.0;
+  }
+  
+  
+  .paragrafo-con-immagine img {
+    float: right; /* sposta l'immagine a destra del testo */
+    margin-left: 10px; /* aggiunge uno spazio di 20px tra l'immagine e il testo */
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 5%;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  
+  .barra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+  }
+  
+  
+  .barra img {
+    height: 30px;
+    margin: 0 10px;
+  }
+  
+  
+  .barra a {
+    color: antiquewhite;
+    text-decoration: none;
+  }
+  
+  .image-container {
+    width: 500px;
+    height: 300px;
+    overflow: auto;
+   
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  margin-top: -100px; /* metà dell'altezza del container */
+
+  }
+  
+  image-container img {
+      width: 300px;
+      height: 200px;
+      margin-bottom: 20px;
+    
+  }
+  
+  /* Stile della sezione dei contatti */
+#contatti {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+#contatti h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Stile del contenitore */
+.contenitore {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+  /* Stile della sezione dei contatti */
+#contatti {
+  background-color: rgb(249, 242, 233);
+  padding: 50px 0;
+}
+
+#contatti h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Stile del contenitore */
+.contenitore {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Stile del modulo di contatto */
+form {
+  flex-basis: calc(50% - 20px);
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid antiquewhite;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 150px;
+}
+
+form button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Stile delle informazioni di contatto */
+.informazioni {
+  flex-basis: calc(50% - 20px);
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.informazioni h3 {
+  margin-top: 0;
+}
+
+.informazioni p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.informazioni strong {
+  font-weight: bold;
+}
+/* Stile delle icone social */
+.social img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+/* Stile dei bottoni */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Stile del bottone primario */
+.button-primary {
+  background-color: #007bff;
+}
+
+/* Stile del bottone secondario */
+.button-secondary {
+  background-color: #6c757d;
+}
+
+/* Stile del bottone terziario */
+.button-tertiary {
+  background-color: antiquewhite;
+}
